@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4F99BB1FAE9B92004370BB /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F99BA1FAE9B92004370BB /* LeagueVC.swift */; };
+		3F4F99BD1FAE9BB1004370BB /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F99BC1FAE9BB1004370BB /* SkillVC.swift */; };
+		3FADEB751FA7B82800D6D84F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FADEB741FA7B82800D6D84F /* AppDelegate.swift */; };
+		3FADEB771FA7B82800D6D84F /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FADEB761FA7B82800D6D84F /* WelcomeVC.swift */; };
+		3FADEB7A1FA7B82800D6D84F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FADEB781FA7B82800D6D84F /* Main.storyboard */; };
+		3FADEB7C1FA7B82800D6D84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FADEB7B1FA7B82800D6D84F /* Assets.xcassets */; };
+		3FADEB7F1FA7B82800D6D84F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FADEB7D1FA7B82800D6D84F /* LaunchScreen.storyboard */; };
+		3FADEB881FA831F500D6D84F /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FADEB871FA831F500D6D84F /* BorderButton.swift */; };
+		3FF3A4A11FB14A420005CCCE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3A4A01FB14A420005CCCE /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F4F99BA1FAE9B92004370BB /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		3F4F99BC1FAE9BB1004370BB /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		3FADEB711FA7B82700D6D84F /* app-swoosh-by-zna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh-by-zna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FADEB741FA7B82800D6D84F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FADEB761FA7B82800D6D84F /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		3FADEB791FA7B82800D6D84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FADEB7B1FA7B82800D6D84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FADEB7E1FA7B82800D6D84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FADEB801FA7B82800D6D84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FADEB871FA831F500D6D84F /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		3FF3A4A01FB14A420005CCCE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FADEB6E1FA7B82700D6D84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4F99B81FAE9A99004370BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FADEB761FA7B82800D6D84F /* WelcomeVC.swift */,
+				3F4F99BA1FAE9B92004370BB /* LeagueVC.swift */,
+				3F4F99BC1FAE9BB1004370BB /* SkillVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F4F99B91FAE9AA2004370BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FF3A4A01FB14A420005CCCE /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FADEB681FA7B82700D6D84F = {
+			isa = PBXGroup;
+			children = (
+				3FADEB731FA7B82700D6D84F /* app-swoosh-by-zna */,
+				3FADEB721FA7B82700D6D84F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FADEB721FA7B82700D6D84F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FADEB711FA7B82700D6D84F /* app-swoosh-by-zna.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FADEB731FA7B82700D6D84F /* app-swoosh-by-zna */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F99B91FAE9AA2004370BB /* Model */,
+				3F4F99B81FAE9A99004370BB /* Controller */,
+				3FADEB861FA831AB00D6D84F /* View */,
+				3FADEB741FA7B82800D6D84F /* AppDelegate.swift */,
+				3FADEB781FA7B82800D6D84F /* Main.storyboard */,
+				3FADEB7B1FA7B82800D6D84F /* Assets.xcassets */,
+				3FADEB7D1FA7B82800D6D84F /* LaunchScreen.storyboard */,
+				3FADEB801FA7B82800D6D84F /* Info.plist */,
+			);
+			path = "app-swoosh-by-zna";
+			sourceTree = "<group>";
+		};
+		3FADEB861FA831AB00D6D84F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FADEB871FA831F500D6D84F /* BorderButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FADEB701FA7B82700D6D84F /* app-swoosh-by-zna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FADEB831FA7B82800D6D84F /* Build configuration list for PBXNativeTarget "app-swoosh-by-zna" */;
+			buildPhases = (
+				3FADEB6D1FA7B82700D6D84F /* Sources */,
+				3FADEB6E1FA7B82700D6D84F /* Frameworks */,
+				3FADEB6F1FA7B82700D6D84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-swoosh-by-zna";
+			productName = "app-swoosh-by-zna";
+			productReference = 3FADEB711FA7B82700D6D84F /* app-swoosh-by-zna.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FADEB691FA7B82700D6D84F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Никита Журавлев";
+				TargetAttributes = {
+					3FADEB701FA7B82700D6D84F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3FADEB6C1FA7B82700D6D84F /* Build configuration list for PBXProject "app-swoosh-by-zna" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FADEB681FA7B82700D6D84F;
+			productRefGroup = 3FADEB721FA7B82700D6D84F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FADEB701FA7B82700D6D84F /* app-swoosh-by-zna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FADEB6F1FA7B82700D6D84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FADEB7F1FA7B82800D6D84F /* LaunchScreen.storyboard in Resources */,
+				3FADEB7C1FA7B82800D6D84F /* Assets.xcassets in Resources */,
+				3FADEB7A1FA7B82800D6D84F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FADEB6D1FA7B82700D6D84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FADEB771FA7B82800D6D84F /* WelcomeVC.swift in Sources */,
+				3F4F99BB1FAE9B92004370BB /* LeagueVC.swift in Sources */,
+				3FADEB751FA7B82800D6D84F /* AppDelegate.swift in Sources */,
+				3F4F99BD1FAE9BB1004370BB /* SkillVC.swift in Sources */,
+				3FF3A4A11FB14A420005CCCE /* Player.swift in Sources */,
+				3FADEB881FA831F500D6D84F /* BorderButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FADEB781FA7B82800D6D84F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FADEB791FA7B82800D6D84F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FADEB7D1FA7B82800D6D84F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FADEB7E1FA7B82800D6D84F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FADEB811FA7B82800D6D84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FADEB821FA7B82800D6D84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FADEB841FA7B82800D6D84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 954BU937CN;
+				INFOPLIST_FILE = "app-swoosh-by-zna/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.noirenick.stdlib1993.app-swoosh-by-zna";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FADEB851FA7B82800D6D84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 954BU937CN;
+				INFOPLIST_FILE = "app-swoosh-by-zna/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.noirenick.stdlib1993.app-swoosh-by-zna";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FADEB6C1FA7B82700D6D84F /* Build configuration list for PBXProject "app-swoosh-by-zna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FADEB811FA7B82800D6D84F /* Debug */,
+				3FADEB821FA7B82800D6D84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FADEB831FA7B82800D6D84F /* Build configuration list for PBXNativeTarget "app-swoosh-by-zna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FADEB841FA7B82800D6D84F /* Debug */,
+				3FADEB851FA7B82800D6D84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FADEB691FA7B82700D6D84F /* Project object */;
+}
