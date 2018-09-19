@@ -2,11 +2,11 @@
 This repository contains some projects that was completed during studying Swift
 
 # Boners
-It is a simple game that plays with random numbers
+Dice rolling game
 
 # Swoosh
 
-Sport app 
+Sport style app with few VC's
 
 # Hustle Mode
 
@@ -14,13 +14,13 @@ App with animation of flying rocket and 8-bit sound
 
 # Dev Profile
 
-One app with support of iPhone and iPad screens
+Traning in UI Building for iPhone and iPad
 
 # Window Shopper
 
-Application that hepls you calculate how much time do you need to work to buy the thing that you are interested in
+Application that hepls you to count how much hours do you need to work to exchange them for goods
 
 # Coder Swag
 
-App loking like online store
+Merchant shop app
 
